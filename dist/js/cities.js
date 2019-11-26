@@ -1,85 +1,85 @@
 export const metros = [{
-        city: "NYC",
+        city: "nyc",
         long: -70.1,
         lat: 38.1
     },
     {
-        city: "LA",
+        city: "la",
         long: -121.3,
         lat: 30.5
     },
     {
-        city: "CHI",
+        city: "chi",
         long: -86.3,
         lat: 39.7
     },
     {
-        city: "DAL",
+        city: "dal",
         long: -97.3,
         lat: 28.3
     },
     {
-        city: "HOU",
+        city: "hou",
         long: -95.3,
         lat: 25.5
     },
     {
-        city: "PHI",
+        city: "phi",
         long: -72,
         lat: 37.2
     },
     {
-        city: "DC",
+        city: "dc",
         long: -74.4,
         lat: 35.4 
     },
+    // {
+    //     city: "mia",
+    //     long: -78.2,
+    //     lat: 23.8
+    // },
     {
-        city: "MIA",
-        long: -78.2,
-        lat: 23.8
-    },
-    {
-        city: "ATL",
+        city: "atl",
         long: -82,
         lat: 29.8
     },
     {
-        city: "BOS",
+        city: "bos",
         long: -66.9,
         lat: 40.2
     },
     {
-        city: "SF",
+        city: "sf",
         long: -126,
         lat: 34.3
     },
     {
-        city: "PHO",
+        city: "pho",
         long: -114,
         lat: 29.8
     },
     {
-        city: "DET",
+        city: "det",
         long: -81,
         lat: 40.1
     },
     {
-        city: "SEA",
+        city: "sea",
         long: -126.6,
         lat: 46.3
     },
     {
-        city: "MIN",
+        city: "min",
         long: -93,
         lat: 43.3
     },
     {
-        city: "STL",
+        city: "stl",
         long: -89.6,
         lat: 36
     },
     {
-        city: "DEN",
+        city: "den",
         long: -106,
         lat: 36.7
     },
