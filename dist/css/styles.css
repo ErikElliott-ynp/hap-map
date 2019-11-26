@@ -65,6 +65,7 @@
     height: 13px;
     width: 13px;
     background-color: green;
+    border: .5px solid darkgray;
     margin-right: 5px
 }
 
@@ -72,6 +73,7 @@
     height: 13px;
     width: 13px;
     background-color: blue;
+    border: .5px solid darkgray;
     margin-right: 5px
 }
 
@@ -79,84 +81,98 @@
     height: 13px;
     width: 13px;
     background-color: gray;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .yellow {
     height: 13px;
     width: 13px;
     background-color: yellow;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .teal {
     height: 13px;
     width: 13px;
     background-color: teal;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .navy {
     height: 13px;
     width: 13px;
     background-color: navy;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .red {
     height: 13px;
     width: 13px;
     background-color: red;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .fuchsia {
     height: 13px;
     width: 13px;
     background-color: fuchsia;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .aqua {
     height: 13px;
     width: 13px;
     background-color: aqua;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .tan {
     height: 13px;
     width: 13px;
     background-color: tan;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .white {
     height: 13px;
     width: 13px;
     background-color: white;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .gold {
     height: 13px;
     width: 13px;
     background-color: gold;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .brown {
     height: 13px;
     width: 13px;
     background-color: brown;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .purple {
     height: 13px;
     width: 13px;
     background-color: purple;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .orange {
     height: 13px;
     width: 13px;
     background-color: orange;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 .pink {
     height: 13px;
     width: 13px;
     background-color: pink;
+    border: .5px solid darkgray;
     margin-right: 5px;
 }
 
