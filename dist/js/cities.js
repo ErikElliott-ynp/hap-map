@@ -1,86 +1,97 @@
 export const metros = [{
         city: "nyc",
-        long: -70.1,
-        lat: 38.1
+        long: 861,
+        lat: 210,
+        color: "blue"
     },
     {
         city: "la",
-        long: -121.3,
-        lat: 30.5
+        long: 97,
+        lat: 351,
+        color: "purple"
     },
     {
         city: "chi",
-        long: -86.3,
-        lat: 39.7
+        long: 626,
+        lat: 224,
+        color: "red"
     },
     {
         city: "dal",
-        long: -97.3,
-        lat: 28.3
+        long: 467,
+        lat: 445,
+        color: "white"
     },
     {
         city: "hou",
-        long: -95.3,
-        lat: 25.5
-    },
-    {
-        city: "phi",
-        long: -72,
-        lat: 37.2
+        long: 500,
+        lat: 510,
+        color: "tan"
     },
     {
         city: "dc",
-        long: -74.4,
-        lat: 35.4 
+        long: 811,
+        lat: 275,
+        color: "grey" 
     },
-    // {
-    //     city: "mia",
-    //     long: -78.2,
-    //     lat: 23.8
-    // },
+    {
+        city: "mia",
+        long: 805,
+        lat: 560,
+        color: "teal"
+    },
     {
         city: "atl",
-        long: -82,
-        lat: 29.8
+        long: 715,
+        lat: 401,
+        color: "yellow"
     },
     {
         city: "bos",
-        long: -66.9,
-        lat: 40.2
+        long: 893,
+        lat: 159,
+        color: "green"
     },
     {
         city: "sf",
-        long: -126,
-        lat: 34.3
+        long: 45,
+        lat: 261,
+        color: "orange"
     },
     {
         city: "pho",
-        long: -114,
-        lat: 29.8
+        long: 199,
+        lat: 390,
+        color: "brown"
     },
     {
         city: "det",
-        long: -81,
-        lat: 40.1
+        long: 700,
+        lat: 207,
+        color: "skyblue"
     },
     {
         city: "sea",
-        long: -126.6,
-        lat: 46.3
+        long: 95,
+        lat: 60,
+        color: "pink"
     },
     {
         city: "min",
-        long: -93,
-        lat: 43.3
+        long: 529,
+        lat: 162,
+        color: "fuchsia"
     },
     {
         city: "stl",
-        long: -89.6,
-        lat: 36
+        long: 584,
+        lat: 300,
+        color: "purple"
     },
     {
         city: "den",
-        long: -106,
-        lat: 36.7
+        long: 340,
+        lat: 280,
+        color: "gold"
     },
 ]
