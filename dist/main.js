@@ -8,8 +8,6 @@ let proj = d3.geoAlbersUsa();
 
 import { metros } from "./js/cities"
 
-let mia = document.createElement('div');
-
 d3.json("https://d3js.org/us-10m.v1.json",  (error, us) => {
     if (error) throw error;
     
@@ -27,7 +25,6 @@ d3.json("https://d3js.org/us-10m.v1.json",  (error, us) => {
     svg.append("path")
         .attr("class", "state-borders")
         .attr("d", path(topojson.mesh(us, us.objects.states, function (a, b) { return a !== b; })))
-        .attr("height", "700px !important");
     
     // add cities
 
@@ -39,8 +36,10 @@ d3.json("https://d3js.org/us-10m.v1.json",  (error, us) => {
     
     })
 
-    svg.append('mia')
-        .attr('class', 'mia');
+    svg.append('circle')
+        .attr('r', 5)
+        .attr('class', 'mia')
+        .attr("transform", "translate(805, 560)");
 
 });
 
