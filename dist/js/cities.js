@@ -68,7 +68,7 @@ export const metros = [{
         city: "det",
         long: 700,
         lat: 207,
-        color: "skyblue"
+        color: "navy"
     },
     {
         city: "sea",
@@ -86,7 +86,7 @@ export const metros = [{
         city: "stl",
         long: 584,
         lat: 300,
-        color: "purple"
+        color: "aqua"
     },
     {
         city: "den",
