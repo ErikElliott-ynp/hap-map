@@ -47,6 +47,14 @@
 
 }
 
+.park-img {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 3px;
+    margin: 0 4px 3px 0;
+}
+
 .title {
     margin-top: 50px;
     font-size: 32px;
@@ -55,7 +63,7 @@
 }
 
 .legend {
-    height: 370px;
+    height: 385px;
     width: 150px;
     border: white solid 1px;
     position: relative;
@@ -78,6 +86,7 @@
 
 .leg-head {
     text-decoration: underline;
+    margin-top: 5px;
 }
 
 .green {
