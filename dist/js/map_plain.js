@@ -31,4 +31,4 @@ const makeMapPlain = () => {
 
 }
 
-export const makeMapPlain;
+export default makeMapPlain;

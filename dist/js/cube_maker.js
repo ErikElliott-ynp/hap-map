@@ -24,8 +24,7 @@ function cubeMaker (met) {
         let ce = cubes
             .enter()
             .append('g')
-            .attr('class', 'cube')
-            .attr('class', met.city)
+            .attr('class', `cube ${met.city}`)
             .attr('fill', met.color)
             .attr('stroke', "#000")
             .merge(cubes)

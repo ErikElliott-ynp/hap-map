@@ -7,6 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
     makeMapPlain();
 })
 
+// reset
+let reset = document.getElementById('reset');
+reset.addEventListener("click", () => {
+    d3.selectAll('.cube')
+        .remove();
+})
+
 
 // creates map with states and counties
 
