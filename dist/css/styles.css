@@ -40,7 +40,7 @@
 }
 
 .legend {
-    height: 350px;
+    height: 370px;
     width: 150px;
     border: white solid 1px;
     position: relative;
@@ -59,6 +59,10 @@
     text-align: center;  
     display: flex;  
     margin: 0 0 5px 5px
+}
+
+.leg-head {
+    text-decoration: underline;
 }
 
 .green {
