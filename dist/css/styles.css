@@ -32,6 +32,12 @@
     text-align: center;
 }
 
+.nat-parks {
+    position: relative;
+    left: -550px;
+    top: 200px
+}
+
 .title {
     margin-top: 50px;
     font-size: 32px;
@@ -181,6 +187,8 @@
 }
 
 .nyc {
+    position: absolute;
+    z-index: 3;
 }
 
 .mia {

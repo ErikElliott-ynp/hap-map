@@ -1,17 +1,15 @@
-console.log('And Here . . . we. . . . go');
+import nationalParksGraph from "./js/nat_parks";
 
+console.log('And Here . . . we. . . . go');
 let svg = d3.select("svg");
 
 let path = d3.geoPath();
 
 // let proj = d3.geoAlbersUsa();
 
-import { metros } from "./js/cities";
-import cubeMaker from "./js/cube_maker";
 
 
-// creates map with states and counties
-
+    
 d3.json("https://d3js.org/us-10m.v1.json",  (error, us) => {
     if (error) throw error;
     // border
@@ -31,13 +29,16 @@ d3.json("https://d3js.org/us-10m.v1.json",  (error, us) => {
         .attr("class", "state-borders")
         .attr("d", path(topojson.mesh(us, us.objects.states, (a, b) => a !== b )))
     
-    // add cities bar graphs
-
-    metros.forEach( met => {
-        cubeMaker(met)
-    })
-
 });
+
+
+
+// creates map with states and counties
+
+let btn = document.getElementById('main');
+btn.addEventListener('click', () => {
+    nationalParksGraph();
+})
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
