@@ -32,10 +32,19 @@
     text-align: center;
 }
 
-.nat-parks {
+.all-btns {
     position: relative;
-    left: -550px;
-    top: 200px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height: 150px;
+    left: 50px;
+    top: 350px;
+}
+
+.nat-parks {
+
 }
 
 .title {
