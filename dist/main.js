@@ -14,7 +14,6 @@ reset.addEventListener("click", () => {
         .remove();
 })
 
-
 // creates map with states and counties
 
 let btn = document.getElementById('main');
