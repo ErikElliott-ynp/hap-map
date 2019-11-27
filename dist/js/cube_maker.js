@@ -25,6 +25,7 @@ function cubeMaker (met) {
             .enter()
             .append('g')
             .attr('class', 'cube')
+            .attr('class', met.city)
             .attr('fill', met.color)
             .attr('stroke', "#000")
             .merge(cubes)
@@ -60,7 +61,7 @@ function cubeMaker (met) {
         let count = 0;
         for (let z = -j / 2; z <= j / 2; z = z + 5) {
             for (let x = -j; x <= j; x = x + 5) {
-                let h = -8;
+                let h = -9;
                 let _cube = makeCube(h, x, z);
                 _cube.id = 'cube_' + count++;
                 _cube.height = h;
@@ -87,4 +88,5 @@ function cubeMaker (met) {
 
     init();
 }
+
 export default cubeMaker;
