@@ -67,7 +67,7 @@ function cubeMaker (met) {
                 cubesData.push(_cube);
             }
         }
-        processData(cubes3D(cubesData), 1000);
+        processData(cubes3D(cubesData), 600);
     }
 
     // 3 dimension of each cube

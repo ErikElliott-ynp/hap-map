@@ -7,7 +7,7 @@ export const metros = [{
     },
     {
         city: "la",
-        long: 97,
+        long: 88,
         lat: 351,
         color: "purple",
         dist: 130
@@ -36,7 +36,7 @@ export const metros = [{
     {
         city: "dc",
         long: 811,
-        lat: 275,
+        lat: 265,
         color: "grey",
         dist: 80
     },
@@ -63,7 +63,7 @@ export const metros = [{
     },
     {
         city: "sf",
-        long: 45,
+        long: 38,
         lat: 261,
         color: "orange",
         dist: 100

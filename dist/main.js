@@ -1,20 +1,11 @@
 import nationalParksGraph from "./js/nat_parks";
 import makeMapPlain from './js/map_plain';
-import { metros } from "./js/cities";
 
 console.log('And Here . . . we. . . . go');
 
 document.addEventListener("DOMContentLoaded", () => {
     makeMapPlain();
-    metros.forEach( met => {
-        d3.select('svg')
-            .append('circle')
-            .attr('r', 5)
-            .attr("fill", met.color)
-            .origin([met.long, met.lat])
-
-    })
-
+    
 })
 
 // reset
@@ -22,11 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
 const resetMap = () => {
     d3.selectAll('.cube')
         .remove();
+    d3.selectAll('.circ')
+        .remove()
 }
 
 let reset = document.getElementById('reset');
 reset.addEventListener("click", () => {
-  resetMap();
+    makeMapPlain();
+    resetMap();
 })
 
 // creates map with states and counties

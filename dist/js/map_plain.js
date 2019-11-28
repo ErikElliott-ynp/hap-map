@@ -1,7 +1,10 @@
+import { metros } from "./cities";
+
 const makeMapPlain = () => {
 
     let svg = d3.select("svg");
     let path = d3.geoPath();
+
 
     // let proj = d3.geoAlbersUsa();
 
@@ -24,6 +27,15 @@ const makeMapPlain = () => {
         svg.append("path")
             .attr("class", "state-borders")
             .attr("d", path(topojson.mesh(us, us.objects.states, (a, b) => a !== b)))
+
+        metros.forEach(met => {
+            d3.select('svg')
+                .append('circle')
+                .attr('r', 10)
+                .attr('class', 'circ')
+                .attr("fill", met.color)
+                .attr("transform", `translate(${met.long}, ${met.lat})`)
+        })
 
     });
 
