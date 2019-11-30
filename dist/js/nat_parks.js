@@ -32,6 +32,13 @@ const nationalParksGraph = () => {
             cubeMaker(met)
         })
 
+        svg.append('div')
+            .attr('park-img')
+                .append('svg:image')
+                .attr('class', 'np-icon')
+                .attr('xlink:href', './images/tree-solid.svg')
+                .attr("transform", `translate(640, 220)`)
+
     });
 
 }

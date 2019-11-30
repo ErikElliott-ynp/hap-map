@@ -1,7 +1,11 @@
 import nationalParksGraph from "./js/nat_parks";
 import makeMapPlain from './js/map_plain';
+import axios from 'axios';
 
 console.log('And Here . . . we. . . . go');
+
+
+window.axios = axios;
 
 document.addEventListener("DOMContentLoaded", () => {
     makeMapPlain();
