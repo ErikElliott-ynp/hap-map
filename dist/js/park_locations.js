@@ -25,39 +25,49 @@ export const parkLocations = [
         lat: 340
     },
     {
-        name: "Indiana Dunes",
-        long: 628,
-        lat: 222
+        name: "Biscayne",
+        long: 800,
+        lat: 570
     },
     {
-        name: "Indiana Dunes",
-        long: 628,
-        lat: 222
+        name: "Hot Springs",
+        long: 530,
+        lat: 380
     },
     {
-        name: "Indiana Dunes",
-        long: 628,
-        lat: 222
+        name: "Gateway Arch",
+        long: 581,
+        lat: 297
     },
     {
-        name: "Indiana Dunes",
-        long: 628,
-        lat: 222
+        name: "Rocky Mountain",
+        long: 294,
+        lat: 235
     },
     {
-        name: "Indiana Dunes",
-        long: 628,
-        lat: 222
+        name: "Voyageurs",
+        long: 514,
+        lat: 65
     },
     {
-        name: "Indiana Dunes",
-        long: 628,
-        lat: 222
+        name: "Saguaro",
+        long: 204,
+        lat: 415
     },
     {
-        name: "Indiana Dunes",
-        long: 628,
-        lat: 222
+        name: "Joshua Tree",
+        long: 120,
+        lat: 355
+    },
+    {
+        name: "Pinnacles",
+        long: 40,
+        lat: 275
+    },
+    {
+        name: "Mount Ranier",
+        long: 100,
+        lat: 65
     },
 
 ]
