@@ -17,7 +17,7 @@ const makeMapPlain = () => {
             .selectAll("path")
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
-            .style("fill", "rgb(12, 80, 12)")
+            .style("fill", "rgb(93, 182, 233)")
             .attr("d", path);
         // counties
         svg.append('path')

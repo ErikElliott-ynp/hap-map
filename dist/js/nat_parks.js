@@ -15,7 +15,7 @@ const nationalParksGraph = () => {
             .selectAll("path")
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
-            .style("fill", "rgb(12, 80, 12)")
+            .style("fill", "rgb(93, 182, 233)")
             .attr("d", path);
         // counties
         svg.append('path')
@@ -32,12 +32,10 @@ const nationalParksGraph = () => {
             cubeMaker(met)
         })
 
-        svg.append('div')
-            .attr('park-img')
-                .append('svg:image')
-                .attr('class', 'np-icon')
-                .attr('xlink:href', './images/tree-solid.svg')
-                .attr("transform", `translate(640, 220)`)
+        svg.append('svg:image')
+            .attr('class', 'np-icon')
+            .attr('xlink:href', './images/tree-solid.svg')
+            .attr("transform", `translate(800, 570)`)
 
     });
 

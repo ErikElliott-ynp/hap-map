@@ -1,12 +1,12 @@
   .county-borders {
     fill: none;
-    stroke: #fff;
+    stroke: rgb(255, 255, 255);
     stroke-width: .5px;
  }
 
  :root {
-    background: black;
-    color: white;
+    background: rgb(206, 191, 191);
+    color: rgb(255, 255, 255);
  }
 
  .states {
@@ -16,7 +16,7 @@
 
 .state-borders {
     fill: none;
-    stroke: #fff;
+    stroke: rgb(255, 255, 255);
     stroke-width: 1.5px;
     stroke-linejoin: round;
     stroke-linecap: round;
@@ -80,6 +80,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    background-color: black;
 }
 
 .legend > * {

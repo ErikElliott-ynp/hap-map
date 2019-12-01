@@ -17,7 +17,7 @@ export const metros = [{
         long: 626,
         lat: 224,
         color: "red",
-        dist: 80
+        dist: "60 miles"
     },
     {
         city: "dal",
