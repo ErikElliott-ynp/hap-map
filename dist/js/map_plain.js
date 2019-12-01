@@ -1,4 +1,5 @@
 import { metros } from "./cities";
+import cubeMaker from "./cube_maker";
 
 const makeMapPlain = () => {
 
@@ -29,12 +30,7 @@ const makeMapPlain = () => {
             .attr("d", path(topojson.mesh(us, us.objects.states, (a, b) => a !== b)))
 
         metros.forEach(met => {
-            d3.select('svg')
-                .append('circle')
-                .attr('r', 10)
-                .attr('class', 'circ')
-                .attr("fill", met.color)
-                .attr("transform", `translate(${met.long}, ${met.lat})`)
+            cubeMaker(met);
         })
 
     });
