@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
 // reset
 
 const resetMap = () => {
+    d3.selectAll('.np-icon')
+        .remove();
     d3.selectAll('.cube')
         .remove();
     d3.selectAll('.circ')

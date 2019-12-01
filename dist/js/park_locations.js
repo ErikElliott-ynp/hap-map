@@ -1,4 +1,4 @@
-export const parkLocations = [
+const parkLocations = [
     {
         name: "Indiana Dunes",
         long: 628,
@@ -72,4 +72,17 @@ export const parkLocations = [
 
 ]
 
-export default parkLocations;
+
+
+export const parkPlacer = () => {
+    let svg = d3.select("svg");
+
+    parkLocations.forEach( loc => {
+        svg.append('svg:image')
+            .attr('class', 'np-icon')
+            .attr('xlink:href', './images/tree-solid.svg')
+            .attr("transform", `translate(${loc.long}, ${loc.lat})`)
+    })
+}
+
+export default parkPlacer;

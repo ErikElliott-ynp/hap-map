@@ -1,5 +1,6 @@
 import { metros } from "./cities";
 import cubeMaker from "./cube_maker";
+import parkPlacer from "./park_locations";
 
 const nationalParksGraph = () => {
 
@@ -32,11 +33,8 @@ const nationalParksGraph = () => {
             cubeMaker(met)
         })
 
-        svg.append('svg:image')
-            .attr('class', 'np-icon')
-            .attr('xlink:href', './images/tree-solid.svg')
-            .attr("transform", `translate(800, 570)`)
-
+        parkPlacer();
+        
     });
 
 }
