@@ -15,7 +15,7 @@ const cityParksGraph = () => {
             .selectAll("path")
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
-            .style("fill", "rgb(93, 182, 233)")
+            .style("fill", "rgb(28,g 66, 19)")
             .attr("d", path);
         // counties
         svg.append('path')

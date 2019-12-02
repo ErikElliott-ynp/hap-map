@@ -80,7 +80,7 @@ export const parkPlacer = () => {
     parkLocations.forEach( loc => {
         svg.append('svg:image')
             .attr('class', 'np-icon')
-            .attr('xlink:href', './images/tree-solid.svg')
+            .attr('xlink:href', './dist/images/tree-solid.svg')
             .attr("transform", `translate(${loc.long}, ${loc.lat})`)
     })
 }

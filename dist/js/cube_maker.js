@@ -69,7 +69,7 @@ function cubeMaker (met, info = "hap") {
             .classed('_3d', true)
             .merge(texts)
             .transition().duration(tt)
-            .attr('fill', 'black')
+            .attr('fill', 'white')
             .attr('stroke', 'none')
             .attr('x', function (d) { return origin[0] + scale * d.centroid.x })
             .attr('y', function (d) { return origin[1] + scale * d.centroid.y })

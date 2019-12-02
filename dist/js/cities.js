@@ -50,7 +50,7 @@ export const metros = [{
         dist: 290,
         hap: .33,
         parks: .44,
-        numParks: 3.0
+        numParks: 3.1
     },
     {
         city: "hou",
