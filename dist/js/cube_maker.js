@@ -101,7 +101,11 @@ function cubeMaker (met, info = "hap") {
         for (let z = -j / 2; z <= j / 2; z = z + 5) {
             for (let x = -j; x <= j; x = x + 5) {
                 let h = (-9 * met.hap);
-                if (info !== 'hap') h = h / (met.dist /40)
+                if (info === 'distStr'){
+                     h = h / (met.dist /40)
+                } else {
+                    h = h * met.parks
+                }
                 let _cube = makeCube(h, x, z);
                 _cube.id = 'cube_' + count++;
                 _cube.height = h;

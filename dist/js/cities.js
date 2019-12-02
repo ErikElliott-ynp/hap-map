@@ -5,7 +5,8 @@ export const metros = [{
         color: "green",
         distStr: "280 mi",
         dist: 280,
-        hap: .63
+        hap: .63,
+        parks: .96
     },{
         city: "nyc",
         long: 861,
@@ -13,7 +14,8 @@ export const metros = [{
         color: "blue",
         distStr: "300 mi",
         dist: 300,
-        hap: .7
+        hap: .7,
+        parks: .38
     },
     {
         city: "la",
@@ -22,7 +24,8 @@ export const metros = [{
         color: "purple",
         distStr: "130 mi",
         dist: 130,
-        hap: .75
+        hap: .75,
+        parks: .22
     },
     {
         city: "chi",
@@ -31,7 +34,8 @@ export const metros = [{
         color: "red",
         distStr: "60 mi",
         dist: 60,
-        hap: .43
+        hap: .43,
+        parks: .41
     },
     {
         city: "dal",
@@ -40,7 +44,8 @@ export const metros = [{
         color: "white",
         distStr: "290 mi",
         dist: 290,
-        hap: .33
+        hap: .33,
+        parks: .44
     },
     {
         city: "hou",
@@ -49,7 +54,8 @@ export const metros = [{
         color: "tan",
         distStr: "400 mi",
         dist: 400,
-        hap: .05
+        hap: .05,
+        parks: .38
     },
     {
         city: "dc",
@@ -58,7 +64,8 @@ export const metros = [{
         color: "grey",
         distStr: "80 mi",
         dist: 80,
-        hap: .55
+        hap: .55,
+        parks: .91
     },
     {
         city: "mia",
@@ -67,7 +74,8 @@ export const metros = [{
         color: "teal",
         distStr: "40 mi",
         dist: 40,
-        hap: .45
+        hap: .45,
+        parks: .51
     },
     {
         city: "atl",
@@ -76,7 +84,8 @@ export const metros = [{
         color: "yellow",
         distStr: "160 mi",
         dist: 160,
-        hap: .25
+        hap: .25,
+        parks: 1.31
     },
     {
         city: "sf",
@@ -85,7 +94,8 @@ export const metros = [{
         color: "orange",
         distStr: "100 mi",
         dist: 100,
-        hap: .90
+        hap: .90,
+        parks: .62
     },
     {
         city: "pho",
@@ -94,7 +104,8 @@ export const metros = [{
         color: "brown",
         distStr: "110 mi",
         dist: 110,
-        hap: .80
+        hap: .80,
+        parks: .37
     },
     {
         city: "det",
@@ -103,7 +114,8 @@ export const metros = [{
         color: "lightcoral",
         distStr: "180 mi",
         dist: 180,
-        hap: .10
+        hap: .10,
+        parks: .69
     },
     {
         city: "sea",
@@ -112,7 +124,8 @@ export const metros = [{
         color: "pink",
         distStr: "60 mi",
         dist: 60,
-        hap: .85
+        hap: .85,
+        parks: 1.0
     },
     {
         city: "min",
@@ -121,7 +134,8 @@ export const metros = [{
         color: "fuchsia",
         distStr: "270 mi",
         dist: 270,
-        hap: 1.0
+        hap: 1.0,
+        parks: .65
     },
     {
         city: "stl",
@@ -130,7 +144,8 @@ export const metros = [{
         color: "aqua",
         distStr: "292 mi",
         dist: 292,
-        hap: .30
+        hap: .30,
+        parks: .51
     },
     {
         city: "den",
@@ -139,6 +154,7 @@ export const metros = [{
         color: "gold",
         distStr: "65 mi",
         dist: 65,
-        hap: .65
+        hap: .65,
+        parks: .84
     },
 ]

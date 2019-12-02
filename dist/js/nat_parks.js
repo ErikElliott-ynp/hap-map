@@ -34,8 +34,9 @@ const nationalParksGraph = () => {
         })
 
         parkPlacer();
+        
         let para = document.getElementById('info');
-        const text = document.createTextNode("Here are relative Happiness levels of major US metros compared to their distance to the nearest National Park")
+        const text = document.createTextNode("Here are relative Happiness levels of major US metros compared to their distance to the nearest National Park with the distance to the nearest park displayed above each area")
         para.innerHTML = null;
         para.appendChild(text);
     });

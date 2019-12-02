@@ -36,7 +36,7 @@ const makeMapPlain = () => {
     });
 
     let para = document.getElementById('info');
-    const text = document.createTextNode("This represents the average happiness of different major metropolitan areas compared to the national average")
+    const text = document.createTextNode("This represents the average happiness of different major metropolitan areas compared to the national average (5.0)")
     para.innerHTML = null;
     para.appendChild(text);
 
