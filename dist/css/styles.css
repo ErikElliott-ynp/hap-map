@@ -87,7 +87,7 @@
 .park-img {
     height: 15px;
     width: 15px;
-    background-color: white;
+    background-color: rgb(119, 119, 119);
     border-radius: 3px;
     margin: 0 4px 3px 0;
 }
