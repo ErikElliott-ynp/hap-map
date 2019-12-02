@@ -6,7 +6,8 @@ export const metros = [{
         distStr: "280 mi",
         dist: 280,
         hap: .63,
-        parks: .96
+        parks: .96,
+        numParks: 6.5
     },{
         city: "nyc",
         long: 861,
@@ -15,7 +16,8 @@ export const metros = [{
         distStr: "300 mi",
         dist: 300,
         hap: .7,
-        parks: .38
+        parks: .38,
+        numParks: 2.6
     },
     {
         city: "la",
@@ -25,7 +27,8 @@ export const metros = [{
         distStr: "130 mi",
         dist: 130,
         hap: .75,
-        parks: .22
+        parks: .22,
+        numParks: 1.5
     },
     {
         city: "chi",
@@ -35,7 +38,8 @@ export const metros = [{
         distStr: "60 mi",
         dist: 60,
         hap: .43,
-        parks: .41
+        parks: .41,
+        numParks: 2.8
     },
     {
         city: "dal",
@@ -45,7 +49,8 @@ export const metros = [{
         distStr: "290 mi",
         dist: 290,
         hap: .33,
-        parks: .44
+        parks: .44,
+        numParks: 3.0
     },
     {
         city: "hou",
@@ -55,7 +60,8 @@ export const metros = [{
         distStr: "400 mi",
         dist: 400,
         hap: .05,
-        parks: .38
+        parks: .38,
+        numParks: 2.6
     },
     {
         city: "dc",
@@ -65,7 +71,8 @@ export const metros = [{
         distStr: "80 mi",
         dist: 80,
         hap: .55,
-        parks: .91
+        parks: .91,
+        numParks: 6.2
     },
     {
         city: "mia",
@@ -75,7 +82,8 @@ export const metros = [{
         distStr: "40 mi",
         dist: 40,
         hap: .45,
-        parks: .51
+        parks: .51,
+        numParks: 3.5
     },
     {
         city: "atl",
@@ -85,7 +93,8 @@ export const metros = [{
         distStr: "160 mi",
         dist: 160,
         hap: .25,
-        parks: 1.31
+        parks: 1.31,
+        numParks: 8.9
     },
     {
         city: "sf",
@@ -95,7 +104,8 @@ export const metros = [{
         distStr: "100 mi",
         dist: 100,
         hap: .90,
-        parks: .62
+        parks: .62,
+        numParks: 4.2
     },
     {
         city: "pho",
@@ -105,7 +115,8 @@ export const metros = [{
         distStr: "110 mi",
         dist: 110,
         hap: .80,
-        parks: .37
+        parks: .37,
+        numParks: 1.5
     },
     {
         city: "det",
@@ -115,7 +126,8 @@ export const metros = [{
         distStr: "180 mi",
         dist: 180,
         hap: .10,
-        parks: .69
+        parks: .69,
+        numParks: 4.7
     },
     {
         city: "sea",
@@ -125,7 +137,8 @@ export const metros = [{
         distStr: "60 mi",
         dist: 60,
         hap: .85,
-        parks: 1.0
+        parks: 1.0,
+        numParks: 6.8
     },
     {
         city: "min",
@@ -135,7 +148,8 @@ export const metros = [{
         distStr: "270 mi",
         dist: 270,
         hap: 1.0,
-        parks: .65
+        parks: .65,
+        numParks: 4.4
     },
     {
         city: "stl",
@@ -145,7 +159,8 @@ export const metros = [{
         distStr: "292 mi",
         dist: 292,
         hap: .30,
-        parks: .51
+        parks: .51,
+        numParks: 3.5
     },
     {
         city: "den",
@@ -155,6 +170,7 @@ export const metros = [{
         distStr: "65 mi",
         dist: 65,
         hap: .65,
-        parks: .84
+        parks: .84,
+        numParks: 5.7
     },
 ]

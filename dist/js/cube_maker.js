@@ -103,7 +103,7 @@ function cubeMaker (met, info = "hap") {
                 let h = (-9 * met.hap);
                 if (info === 'distStr'){
                      h = h / (met.dist /40)
-                } else {
+                } else if (info === 'numParks') {
                     h = h * met.parks
                 }
                 let _cube = makeCube(h, x, z);

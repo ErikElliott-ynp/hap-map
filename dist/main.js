@@ -1,6 +1,7 @@
 import nationalParksGraph from "./js/nat_parks";
 import makeMapPlain from './js/map_plain';
 import axios from 'axios';
+import cityParksGraph from './js/city_parks';
 
 console.log('And Here . . . we. . . . go');
 
@@ -35,6 +36,12 @@ let btn = document.getElementById('main');
 btn.addEventListener('click', () => {
     resetMap();
     nationalParksGraph();
+})
+
+let cityParks = document.getElementById('city-parks')
+cityParks.addEventListener('click', () => {
+    resetMap();
+    cityParksGraph();
 })
 
 function getRandomColor() {
