@@ -54,13 +54,25 @@
     align-items: center;
     width: 180px;
     height: 50px;
-    left: 100px;
+    left: 275px;
     top: 50px;
     justify-content: space-around;
 }
 
-.nat-parks {
+.options {
+    width: min-content;
+    height: 35px;
+    font-family: 'ABeeZee', sans-serif;
+    padding: 5px; 
+    background-color: black;
+    color: white;   
+    border-radius: 10px;
+    outline: none;
+}
 
+.options:hover {
+    cursor: pointer;
+    background-color: rgb(93, 182, 233);
 }
 
 .park-img {
