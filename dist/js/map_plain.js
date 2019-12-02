@@ -35,7 +35,10 @@ const makeMapPlain = () => {
 
     });
 
-
+    let para = document.getElementById('info');
+    const text = document.createTextNode("This represents the average happiness of different major metropolitan areas compared to the national average")
+    para.innerHTML = null;
+    para.appendChild(text);
 
 }
 

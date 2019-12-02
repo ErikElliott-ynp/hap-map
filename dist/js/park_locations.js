@@ -35,9 +35,9 @@ const parkLocations = [
         lat: 380
     },
     {
-        name: "Gateway Arch",
-        long: 581,
-        lat: 297
+        name: "Mammoth Caves",
+        long: 651,
+        lat: 311
     },
     {
         name: "Rocky Mountain",

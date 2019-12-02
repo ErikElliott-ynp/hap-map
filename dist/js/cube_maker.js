@@ -60,7 +60,7 @@ function cubeMaker (met, info = "hap") {
             .enter()
             .append('text')
             .attr('class', 'text')
-            .attr('dy', '-.5em')
+            .attr('dy', '-.3em')
             .attr('text-anchor', 'middle')
             .attr('font-family', 'sans-serif')
             .attr('font-weight', 'bolder')
@@ -69,16 +69,21 @@ function cubeMaker (met, info = "hap") {
             .classed('_3d', true)
             .merge(texts)
             .transition().duration(tt)
-            .attr('fill', 'white')
+            .attr('fill', 'black')
             .attr('stroke', 'none')
             .attr('x', function (d) { return origin[0] + scale * d.centroid.x })
             .attr('y', function (d) { return origin[1] + scale * d.centroid.y })
             .tween('text', function (d) {
+                let i;
                 let that = d3.select(this);
-                let i = d3.interpolateNumber(+that.text(), Math.abs(d.height));
-                return function (t) {
-                    that.text(i(t).toFixed(1));
-                };
+                if (info === "hap") {
+                    i = d3.interpolateNumber(+that.text(), Math.abs(d.height));
+                    return function (t) {
+                        that.text(i(t).toFixed(1));
+                    };
+                } else {
+                    that.text(met[info])
+                }
             });
 
         texts.exit().remove();
@@ -95,7 +100,8 @@ function cubeMaker (met, info = "hap") {
         let count = 0;
         for (let z = -j / 2; z <= j / 2; z = z + 5) {
             for (let x = -j; x <= j; x = x + 5) {
-                let h = (-9 * met[info]);
+                let h = (-9 * met.hap);
+                if (info !== 'hap') h = h / (met.dist /40)
                 let _cube = makeCube(h, x, z);
                 _cube.id = 'cube_' + count++;
                 _cube.height = h;

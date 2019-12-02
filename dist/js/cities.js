@@ -1,4 +1,12 @@
 export const metros = [{
+        city: "bos",
+        long: 893,
+        lat: 159,
+        color: "green",
+        distStr: "280 mi",
+        dist: 280,
+        hap: .63
+    },{
         city: "nyc",
         long: 861,
         lat: 210,
@@ -71,15 +79,6 @@ export const metros = [{
         hap: .25
     },
     {
-        city: "bos",
-        long: 893,
-        lat: 159,
-        color: "green",
-        distStr: "280 mi",
-        dist: 280,
-        hap: .63
-    },
-    {
         city: "sf",
         long: 38,
         lat: 261,
@@ -101,7 +100,7 @@ export const metros = [{
         city: "det",
         long: 700,
         lat: 207,
-        color: "navy",
+        color: "lightcoral",
         distStr: "180 mi",
         dist: 180,
         hap: .10
@@ -129,8 +128,8 @@ export const metros = [{
         long: 584,
         lat: 300,
         color: "aqua",
-        distStr: "0 mi",
-        dist: 0,
+        distStr: "292 mi",
+        dist: 292,
         hap: .30
     },
     {
