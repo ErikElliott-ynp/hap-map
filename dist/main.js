@@ -3,10 +3,8 @@ import makeMapPlain from './js/map_plain';
 import axios from 'axios';
 import cityParksGraph from './js/city_parks';
 
-console.log('And Here . . . we. . . . go');
 
 
-window.axios = axios;
 
 document.addEventListener("DOMContentLoaded", () => {
     makeMapPlain();
